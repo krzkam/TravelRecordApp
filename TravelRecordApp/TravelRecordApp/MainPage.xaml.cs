@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Plugin.Permissions;
+using Plugin.Permissions.Abstractions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,6 +14,8 @@ namespace TravelRecordApp
         public MainPage()
         {
             InitializeComponent();
+
+    
         }
 
         private void LoginButton_Clicked(object sender, EventArgs e)
@@ -28,5 +32,7 @@ namespace TravelRecordApp
                 Navigation.PushAsync(new HomePage());
             }
         }
+
+ 
     }
 }

@@ -44,6 +44,8 @@ namespace TravelRecordApp.Model
 
     public class VenueRoot
     {
+        public Response response { get; set; }
+
         public static string GenerateURL(double latitude,double longitude)
         {
             return string.Format(Constans.VENUE_SEARCH, latitude, longitude,Constans.CLIENT_ID,Constans.CLIENT_ID,DateTime.Now.ToString("yyyyMMdd"));

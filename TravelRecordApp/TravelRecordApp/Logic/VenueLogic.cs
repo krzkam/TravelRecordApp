@@ -9,11 +9,11 @@ namespace TravelRecordApp.Logic
 {
     public class VenueLogic
     {
-        public async static Task<List<Venue>> GetVenues(double latitude, double longitude)
+        public async static Task<List<VenueRoot>> GetVenues(double latitude, double longitude)
         {
-            List<Venue> venues = new List<Venue>();
+            List<VenueRoot> venues = new List<VenueRoot>();
 
-            var url = Venue.GenerateURL(latitude,longitude);
+            var url = VenueRoot.GenerateURL(latitude,longitude);
 
             using (HttpClient client = new HttpClient())
             {

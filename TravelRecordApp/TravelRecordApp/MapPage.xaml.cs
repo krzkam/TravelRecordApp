@@ -52,6 +52,7 @@ namespace TravelRecordApp
 
             locationsMap.Pins.Add(pin);
 
+            //uncomment this after getting valid API credentials 
             //using (SQLiteConnection conn = new SQLiteConnection(App.DatabaseLocation))
             //{
             //    conn.CreateTable<Post>();

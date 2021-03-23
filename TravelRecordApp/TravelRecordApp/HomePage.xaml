@@ -13,7 +13,7 @@
     <local:MapPage Title="Map"
                    Icon="map.png"/>
     <local:ProfilePage Title="Profile"
-                       Icon="user.png"/>
+                       Icon="person.png"/>
 
 
 </TabbedPage>

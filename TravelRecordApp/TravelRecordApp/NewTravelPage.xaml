@@ -4,7 +4,8 @@
              x:Class="TravelRecordApp.NewTravelPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Save"
-                     Clicked="ToolbarItem_Clicked"/>
+                     Clicked="ToolbarItem_Clicked"
+                     Icon="save.png"/>
     </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout>
